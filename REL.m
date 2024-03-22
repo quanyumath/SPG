@@ -1,3 +1,3 @@
 function rel=REL(Z,X)
-rel=sqrt(norm(X(:)-Z(:))/numel(Z));
+rel=norm(X(:)-Z(:))/sqrt(numel(Z));
 end
